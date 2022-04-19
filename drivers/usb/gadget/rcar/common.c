@@ -21,6 +21,7 @@
 #include "common.h"
 #include "rcar3.h"
 #include <asm/io.h>
+#include <linux/delay.h>
 
 /*
  *		image of renesas_usbhs

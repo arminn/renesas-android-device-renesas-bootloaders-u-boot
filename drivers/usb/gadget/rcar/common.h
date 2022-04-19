@@ -20,6 +20,9 @@
 #ifndef RENESAS_USB_DRIVER_H
 #define RENESAS_USB_DRIVER_H
 
+#include <linux/bug.h>
+
+
 #include "renesas_usb.h"
 
 struct usbhs_priv;

@@ -159,6 +159,8 @@
 #define gadget_is_max3420(g)        (!strcmp("max3420-udc", (g)->name))
 #else
 #define gadget_is_max3420(g)        0
+#endif
+
 #ifdef CONFIG_USB_RENESAS_USBHS
 #define gadget_is_rcar3(g)        (!strcmp("renesas_usbhs_udc", (g)->name))
 #else
